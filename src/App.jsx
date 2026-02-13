@@ -65,4 +65,11 @@ function App() {
                         <ContactSection />
                     </main>
 
-                  
+                    <Footer />
+                </motion.div>
+            )}
+        </div>
+    );
+}
+
+export default App;
