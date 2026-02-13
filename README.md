@@ -9,6 +9,18 @@ Priyanga is an ultra-premium, cinematic, and mobile-responsive luxury bakery web
 
 ---
 
+## 🌐 Live Preview
+🔗 **Website:**  
+https://premium-bakery.vercel.app/ 
+
+
+# 📸 Website Preview
+
+## 🖥️ Screenshot
+![Priyanga Bakery Screenshot](./public/image.png)
+
+---
+
 ## ✨ Features
 
 ### 🎬 Cinematic UI/UX
