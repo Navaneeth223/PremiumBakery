@@ -12,7 +12,7 @@ const HeroSection = () => {
         className="absolute inset-0 z-0"
       >
         <img 
-          src="https://images.unsplash.com/photo-1517433670267-28da3d20a5cd?q=80&w=2000&auto=format&fit=crop" 
+          src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=2000&auto=format&fit=crop" 
           alt="Luxury Bakery Interior"
           className="w-full h-full object-cover"
         />
