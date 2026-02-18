@@ -1,13 +1,19 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
+// Import local assets
+import morningBakeImg from '../assets/Morning Bake.png';
+import luxuryCakeImg from '../assets/Luxury Cake.png';
+import macaronSelectionImg from '../assets/Macaron Selection.png';
+import briocheBunImg from '../assets/Brioche Bun.png';
+
 const products = [
-  { id: 1, name: 'Sourdough Loaf', category: 'Breads', price: '$8', image: 'https://images.unsplash.com/photo-1549931319-a545dcf3bc73?q=80&w=800&auto=format&fit=crop', desc: 'Fermented for 24 hours with wild yeast.' },
+  { id: 1, name: 'Sourdough Loaf', category: 'Breads', price: '$8', image: morningBakeImg, desc: 'Fermented for 24 hours with wild yeast.' },
   { id: 2, name: 'Golden Croissant', category: 'Pastries', price: '$5', image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800&auto=format&fit=crop', desc: 'Hand-laminated with premium French butter.' },
-  { id: 3, name: 'Dark Velvet Cake', category: 'Cakes', price: '$45', image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop', desc: '70% Belgian chocolate with raspberry silk.' },
+  { id: 3, name: 'Dark Velvet Cake', category: 'Cakes', price: '$45', image: luxuryCakeImg, desc: '70% Belgian chocolate with raspberry silk.' },
   { id: 4, name: 'Artisan Baguette', category: 'Breads', price: '$4', image: 'https://images.unsplash.com/photo-1597079910443-60c43fc4f729?q=80&w=800&auto=format&fit=crop', desc: 'Crispy crust with a light, airy center.' },
-  { id: 5, name: 'Macaron Selection', category: 'Desserts', price: '$18', image: 'https://images.unsplash.com/photo-1569864358642-9d16197022c9?q=80&w=800&auto=format&fit=crop', desc: 'Box of 6 delicate almond Parisian treats.' },
-  { id: 6, name: 'Brioche Bun', category: 'Breads', price: '$3', image: 'https://images.unsplash.com/photo-1606101273044-750c3d407742?q=80&w=800&auto=format&fit=crop', desc: 'Sweet, buttery, and incredibly fluffy.' },
+  { id: 5, name: 'Macaron Selection', category: 'Desserts', price: '$18', image: macaronSelectionImg, desc: 'Box of 6 delicate almond Parisian treats.' },
+  { id: 6, name: 'Brioche Bun', category: 'Breads', price: '$3', image: briocheBunImg, desc: 'Sweet, buttery, and incredibly fluffy.' },
 ];
 
 const categories = ['All', 'Cakes', 'Breads', 'Pastries', 'Desserts'];

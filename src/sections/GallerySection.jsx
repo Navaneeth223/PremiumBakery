@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
+// Import local assets
+import luxuryCakeImg from '../assets/Luxury Cake.png';
+import morningBakeImg from '../assets/Morning Bake.png';
+
 const images = [
   { id: 1, url: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop', title: 'Fresh Breads' },
   { id: 2, url: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800&auto=format&fit=crop', title: 'Artisan Pastry' },
-  { id: 3, url: 'https://images.unsplash.com/photo-1581339399838-2a120c18bca3?q=80&w=800&auto=format&fit=crop', title: 'Luxury Cakes' },
+  { id: 3, url: luxuryCakeImg, title: 'Luxury Cakes' },
   { id: 4, url: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=800&auto=format&fit=crop', title: 'Gourmet Dessert' },
-  { id: 5, url: 'https://images.unsplash.com/photo-1511018556341-d16986a1c194?q=80&w=800&auto=format&fit=crop', title: 'Morning Bake' },
+  { id: 5, url: morningBakeImg, title: 'Morning Bake' },
   { id: 6, url: 'https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?q=80&w=800&auto=format&fit=crop', title: 'Sweet Moments' },
 ];
 
